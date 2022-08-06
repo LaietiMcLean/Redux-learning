@@ -1,4 +1,5 @@
 //ACTIONS
+//Action is a simple interface
 interface Action {
     type: string;
     payload?: any; //Parameters we can send to the action
