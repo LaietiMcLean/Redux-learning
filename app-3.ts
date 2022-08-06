@@ -26,8 +26,10 @@ class Store<T> {
     }
 }
 
+//Create an instante of the store
 const store = new Store(counterReducer, 10);
 
+//Watch the changes step by step (this will be simplify in the app-4 file)
 console.log(store.getState()); // return: 10
 
 //If we want to dispatch the action that increments the state in 1:
